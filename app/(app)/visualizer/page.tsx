@@ -5,6 +5,12 @@ import Link from "next/link"
 const sections = {
   dataStructures: [
     {
+      name: "Custom Code",
+      description: "Write custom Javascript code and step through it line-by-line to visualize Stack, Queue, Linked List, and BST operations.",
+      href: "/visualizer/custom-code",
+      icon: BrainCircuit,
+    },
+    {
       name: "Linked List",
       description: "Dynamic data structure with nodes connected through references. Explore different types of linked lists.",
       href: "/visualizer/linked-list",

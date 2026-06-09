@@ -1,6 +1,6 @@
 "use client"
 
-import { Binary, Home, Database, BrainCircuit, TreePine, List, SquareStack, SquareChevronLeft, Equal, MessageSquare, X, Hash, ArrowRightLeft } from "lucide-react"
+import { Binary, Home, Database, BrainCircuit, TreePine, List, SquareStack, SquareChevronLeft, Equal, MessageSquare, X, Hash, ArrowRightLeft, BookOpen, Network, GraduationCap } from "lucide-react"
 import {
   Sidebar,
   SidebarContent,
@@ -23,9 +23,25 @@ const navItems = [
     url: "/visualizer",
     icon: Database,
   },
+  {
+    title: "Learn DSA",
+    url: "/visualizer/learn",
+    icon: BookOpen,
+  },
+  {
+    title: "English Teacher",
+    url: "/visualizer/english-teacher",
+    icon: GraduationCap,
+  },
 ]
 
 const dataStructures = [
+  {
+    name: "Custom Code",
+    url: "/visualizer/custom-code",
+    icon: BrainCircuit,
+    description: "Write and step through custom JS code to visualize data structures",
+  },
   {
     name: "Stack",
     url: "/visualizer/stack",
@@ -65,6 +81,12 @@ const dataStructures = [
 ]
 
 const applications = [
+  {
+    name: "System Design Maker",
+    url: "/visualizer/system-design",
+    icon: Network,
+    description: "Offline drag-and-drop system design diagram builder with components and connections",
+  },
   {
     name: "Message Queue",
     url: "/visualizer/queue-applications",
